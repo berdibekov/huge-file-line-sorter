@@ -19,20 +19,20 @@
 
                         - hfs sort huge.txt
                         
-                        - hsf sort C:\Users\Berdibekov\IdeaProjects\huge-file-line-sorter\dist\result\huge.sorted.2021.08.04.04.10.28.txt
+                        - hfs sort C:\Users\Berdibekov\IdeaProjects\huge-file-line-sorter\dist\result\huge.sorted.2021.08.04.04.10.28.txt
                        
 
 + generate          - generates file.
 
-                    - hsf generate [file name] [max line length] [number of lines]
+                    - hfs generate [file name] [max line length] [number of lines]
                     
-                    - hsf generate file.txt 300 4000000
+                    - hfs generate huge.txt 300 4000000
 
 + Validate      - validate .
 
-                    - hsf validate [source file path] [sorted file]
+                    - hfs validate [source file path] [sorted file]
                     
-                    - hsf validate huge.txt .\result\huge.sorted.2021.08.04.03.39.27.txt
+                    - hfs validate huge.txt .\result\huge.sorted.2021.08.04.03.39.27.txt
 
 #Compile and run instruction
 
