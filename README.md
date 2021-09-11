@@ -48,4 +48,6 @@
     - UNIX (Linux,Mac OS)
         - sh make.sh
         - sh dist\sorter.sh
-        
+    
+    
+   ![](docs/terminal.png)    
