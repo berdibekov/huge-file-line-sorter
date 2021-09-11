@@ -14,19 +14,17 @@
 
 
 #Commands
-
-+ sort              - Sort file. 
-
-                        - hfs sort huge.txt
-                        
-                        - hfs sort C:\Users\Berdibekov\IdeaProjects\huge-file-line-sorter\dist\result\huge.sorted.2021.08.04.04.10.28.txt
-                       
-
 + generate          - generates file.
 
                     - hfs generate [file name] [max line length] [number of lines]
                     
                     - hfs generate huge.txt 300 4000000
+                    
++ sort              - Sort file. 
+
+                        - hfs sort huge.txt
+                        or you can specify absolute path
+                        - hfs sort C:\Users\Berdibekov\IdeaProjects\huge-file-line-sorter\dist\result\huge.sorted.2021.08.04.04.10.28.txt  
 
 + Validate      - validate .
 
@@ -44,9 +42,9 @@
 - From Console
     - Windows
         - run make.bat
-        - run dist\hsf.bat
+        - run dist\hfs.bat
     - UNIX (Linux,Mac OS)
         - sh make.sh
-        - sh dist\hsf.sh
+        - sh dist\hfs.sh
         
         ![](docs/terminal.png)
