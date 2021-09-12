@@ -35,7 +35,7 @@
                     - sorter validate huge.txt .\result\huge.sorted.txt
 
 #Compile and run instruction
-
+- JDK 14+
 - Run from Intellij IDEA.
     - In Intellij IDEA click to project folder->add framework support->Maven.
     - Lunch src\main\java\com\berdibekov\Main.java with command and parameters [sort huge.txt].
