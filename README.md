@@ -13,7 +13,7 @@
     - validating the file is a sorted input file
 
 
-#Commands
+# Commands
 
 + sort              - Sort file. 
 
