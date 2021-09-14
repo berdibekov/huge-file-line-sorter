@@ -5,7 +5,7 @@
  App implements merge algorithm https://en.wikipedia.org/wiki/Merge_algorithm.
 
  1. Functionality
-    - Sorting Big file that does not fit into RAM. Min RAM required id 150 MBytes.In the future,
+    - Sorting Big file that does not fit into RAM. Min RAM required is 150 MBytes.In the future,
     you can add functionality (setting the required memory size).
 
     !!! This Functionality requires normal RAM space !!!
@@ -34,7 +34,7 @@
                     
                     - sorter validate huge.txt .\result\huge.sorted.txt
 
-#Compile and run instruction
+# Compile and run instruction
 - JDK 14+
 - Run from Intellij IDEA.
     - In Intellij IDEA click to project folder->add framework support->Maven.
